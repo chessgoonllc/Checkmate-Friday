@@ -1,1 +1,0 @@
-Upload streamer photos here. Example: chessgoon17.jpg, blunderfish.jpg, shamz221.jpg, chessrichi.jpg
