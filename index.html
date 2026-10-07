@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkmate Friday | Streamer eChess Tournament</title>
-  <meta name="description" content="Checkmate Friday — a streamer eChess tournament. Friday, October 16 at 5 PM ET.">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkmate Friday | Streamer eChess</title>
+<meta name="description" content="Checkmate Friday — the weekly streamer eChess tournament.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="nav">
-    <div class="brand"><span>♞</span> CHECKMATE FRIDAY</div>
-    <a class="nav-btn" href="#players">Players</a>
-  </header>
+<header class="nav">
+  <a class="brand" href="#"><span>♞</span> CHECKMATE FRIDAY</a>
+  <nav><a href="#lineup">Lineup</a><a href="#results">Results</a><a href="#format">Format</a></nav>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">STREAMER eCHESS TOURNAMENT</p>
-        <h1>CHECKMATE<br><em>FRIDAY</em></h1>
-        <p class="sub">Four streamers. One board. No excuses.</p>
-        <div class="event-card">
-          <div>
-            <span class="label">NEXT BATTLE</span>
-            <strong>FRIDAY, OCTOBER 16</strong>
-          </div>
-          <div class="time">5:00 PM <small>ET</small></div>
-        </div>
-        <a class="cta" href="#players">MEET THE PLAYERS <span>→</span></a>
-      </div>
-      <div class="chess-art" aria-hidden="true">
-        <div class="board"></div>
-        <div class="knight">♞</div>
-      </div>
-    </section>
+<main>
+<section class="hero">
+  <div>
+    <p class="eyebrow">STREAMER eCHESS TOURNAMENT</p>
+    <h1>CHECKMATE<br><em>FRIDAY</em></h1>
+    <p class="sub">Four streamers. One board. No excuses. <strong>And we're just getting started.</strong></p>
+    <div class="event-card">
+      <div><span>NEXT EVENT</span><strong>FRIDAY · OCTOBER 16</strong></div>
+      <div class="time">5:00 PM <small>ET</small></div>
+    </div>
+    <div id="countdown" class="countdown"><div><b>--</b><span>DAYS</span></div><div><b>--</b><span>HOURS</span></div><div><b>--</b><span>MIN</span></div><div><b>--</b><span>SEC</span></div></div>
+  </div>
+  <div class="hero-art"><div class="board"></div><div class="knight">♞</div></div>
+</section>
 
-    <section id="players" class="section">
-      <div class="section-head">
-        <p class="eyebrow">THE LINEUP</p>
-        <h2>FOUR ENTER.<br><span>ONE WINS.</span></h2>
-      </div>
-      <div class="players">
-        <article class="player"><span class="seed">01</span><div class="avatar">♟</div><h3>Chessgoon17</h3><p>STREAMER</p></article>
-        <article class="player"><span class="seed">02</span><div class="avatar">♞</div><h3>Blunderfish</h3><p>STREAMER</p></article>
-        <article class="player"><span class="seed">03</span><div class="avatar">♜</div><h3>Shamz221</h3><p>STREAMER</p></article>
-        <article class="player"><span class="seed">04</span><div class="avatar">♛</div><h3>Chessrichi</h3><p>STREAMER</p></article>
-      </div>
-    </section>
+<section id="lineup" class="section">
+  <p class="eyebrow">THE LINEUP</p>
+  <div class="title-row"><h2>MEET THE<br><span>STREAMERS.</span></h2><p>Add new players anytime. The lineup is built to grow.</p></div>
+  <div class="players">
+    <article class="player"><div class="photo placeholder">♟</div><h3>Chessgoon17</h3><p>CONFIRMED</p></article>
+    <article class="player"><div class="photo placeholder">♞</div><h3>Blunderfish</h3><p>CONFIRMED</p></article>
+    <article class="player"><div class="photo placeholder">♜</div><h3>Shamz221</h3><p>CONFIRMED</p></article>
+    <article class="player"><div class="photo placeholder">♛</div><h3>Chessrichi</h3><p>CONFIRMED</p></article>
+  </div>
+  <div class="add-note">MORE STREAMERS COMING SOON <span>+</span></div>
+</section>
 
-    <section class="format">
-      <div><p class="eyebrow">FRIDAY NIGHT CHESS</p><h2>THE BOARD<br>IS SET.</h2></div>
-      <div class="format-copy">
-        <p>Checkmate Friday brings streamer chess to the main stage. Follow the battles, watch the blunders, and find out who owns Friday night.</p>
-        <div class="stats"><div><strong>4</strong><span>STREAMERS</span></div><div><strong>1</strong><span>CHAMPION</span></div><div><strong>♟</strong><span>NO EXCUSES</span></div></div>
-      </div>
-    </section>
-  </main>
+<section id="results" class="results">
+  <div class="section">
+    <p class="eyebrow">THE RECORD</p>
+    <h2>RESULTS &<br><span>HALL OF FAME.</span></h2>
+    <div class="table-wrap">
+      <table><thead><tr><th>EVENT</th><th>CHAMPION</th><th>RUNNER-UP</th><th>RESULT</th></tr></thead>
+      <tbody>
+        <tr><td>Oct. 16, 2026</td><td class="pending">TBD</td><td>TBD</td><td>UPCOMING</td></tr>
+      </tbody></table>
+    </div>
+    <h3 class="subhead">ALL-TIME CHAMPIONSHIPS</h3>
+    <div class="standings">
+      <div><span>01</span><strong>Chessgoon17</strong><b>0</b></div>
+      <div><span>02</span><strong>Blunderfish</strong><b>0</b></div>
+      <div><span>03</span><strong>Shamz221</strong><b>0</b></div>
+      <div><span>04</span><strong>Chessrichi</strong><b>0</b></div>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <div class="brand"><span>♞</span> CHECKMATE FRIDAY</div>
-    <p>Streamer eChess Tournament · October 16 · 5 PM ET</p>
-  </footer>
+<section id="format" class="format">
+  <div><p class="eyebrow">FRIDAY NIGHT CHESS</p><h2>THE BOARD<br>IS SET.</h2></div>
+  <div><p>Checkmate Friday brings streamer chess to the main stage. Follow the battles, watch the blunders, and find out who owns Friday night.</p>
+  <div class="stats"><div><strong>♟</strong><span>STREAMERS</span></div><div><strong>🏆</strong><span>CHAMPION</span></div><div><strong>∞</strong><span>WEEKS</span></div></div></div>
+</section>
+</main>
+
+<footer><div class="brand"><span>♞</span> CHECKMATE FRIDAY</div><p>Streamer eChess · Friday nights</p></footer>
+
+<script>
+const target = new Date("2026-10-16T17:00:00-04:00").getTime();
+function tick(){
+ const d=Math.max(0,target-Date.now()), day=Math.floor(d/86400000), hr=Math.floor(d/3600000)%24, min=Math.floor(d/60000)%60, sec=Math.floor(d/1000)%60;
+ document.querySelector("#countdown").innerHTML=[day,hr,min,sec].map((n,i)=>`<div><b>${String(n).padStart(2,"0")}</b><span>${["DAYS","HOURS","MIN","SEC"][i]}</span></div>`).join("");
+}
+tick(); setInterval(tick,1000);
+</script>
 </body>
 </html>
