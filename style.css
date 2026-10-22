@@ -14,4 +14,28 @@
   object-fit: cover;
   display: block;
 }
+.hero-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
 
+.hero-art a {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.hero-art a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-art > img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
