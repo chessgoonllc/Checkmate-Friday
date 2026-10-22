@@ -14,33 +14,3 @@
   object-fit: cover;
   display: block;
 }
-/* Checkmate Friday - Convictions Giveaway */
-.convictions-banner-link {
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin: 24px auto;
-  text-decoration: none;
-  border-radius: 12px;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.convictions-banner-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 0;
-  transition: transform 0.2s ease;
-}
-
-.convictions-banner-link:hover .convictions-banner-image {
-  transform: scale(1.01);
-}
-
-@media (max-width: 600px) {
-  .convictions-banner-link {
-    margin: 16px auto;
-    border-radius: 8px;
-  }
-}
