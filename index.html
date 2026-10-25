@@ -20,7 +20,7 @@
     <h1>CHECKMATE<br><em>FRIDAY</em></h1>
     <p class="sub">Who will be... <strong>The last streamer standing</strong></p>
     <div class="event-card">
-      <div><span>NEXT EVENT</span><strong>FRIDAY · OCTOBER 23</strong></div>
+      <div><span>NEXT EVENT</span><strong>FRIDAY · OCTOBER 30</strong></div>
       <div class="time">5:00 PM <small>ET</small></div>
     </div>
     <div id="countdown" class="countdown"><div><b>--</b><span>DAYS</span></div><div><b>--</b><span>HOURS</span></div><div><b>--</b><span>MIN</span></div><div><b>--</b><span>SEC</span></div></div>
@@ -79,13 +79,13 @@
       <table><thead><tr><th>EVENT</th><th>CHAMPION</th><th>RUNNER-UP</th><th>3rd/4th</th><th>3rd/4th</th></tr></thead>
       <tbody>
         <tr><td>Oct. 16, 2026</td><td class="pending">PJSchess</td><td>Highvariance</td><td>Footychess</td><td>Tacticalcabal</td></tr>
-         <tr><td>Oct. 23, 2026</td><td class="pending">TBD</td><td>TBD</td><td>TBD</td><td>TBD</td></tr>
+         <tr><td>Oct. 23, 2026</td><td class="pending">Vhosschess</td><td>Learningwithunc</td><td>Chessfien</td><td>PJSchess</td></tr>
       </tbody></table>
     </div>
     <h3 class="subhead">ALL-TIME CHAMPIONSHIPS</h3>
     <div class="standings">
       <div><span>01</span><strong>PJSchess</strong><b>1</b></div>
-      <div><span>02</span><strong>TBD</strong><b>0</b></div>
+      <div><span>02</span><strong>Vhosschess</strong><b>0</b></div>
     </div>
   </div>
 </section>
@@ -99,7 +99,7 @@
 <footer><div class="brand"><span>♞</span> CHECKMATE FRIDAY</div><p>Streamer eChess · Friday nights</p></footer>
 
 <script>
-const target = new Date("2026-10-23T17:00:00-04:00").getTime();
+const target = new Date("2026-10-30T17:00:00-04:00").getTime();
 function tick(){
  const d=Math.max(0,target-Date.now()), day=Math.floor(d/86400000), hr=Math.floor(d/3600000)%24, min=Math.floor(d/60000)%60, sec=Math.floor(d/1000)%60;
  document.querySelector("#countdown").innerHTML=[day,hr,min,sec].map((n,i)=>`<div><b>${String(n).padStart(2,"0")}</b><span>${["DAYS","HOURS","MIN","SEC"][i]}</span></div>`).join("");
